@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Serif:regular,800,900,italic,800italic,900italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Redressed:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Murecho:500&display=swap);
+body{
+    max-width: 900px;
+    margin:0px auto 10px;
+}
+h1{
+    color: white;
+
+    font-size: 48px;
+    background-color: rgb(155, 14, 14);
+    background-image: url('../img/bbcnews.gif');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 70px 70px;
+}
+a{
+    margin-right: 5px;
+    display: inline-block;
+}
+.solar_system h2{
+    color: darkorange;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+}
+.solar_system{
+    font-family: "Roboto+Serif";
+    font-style: italic;
+    color: white;
+    background-image: url('../img/solar_system.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.jupiter h2{
+    color:brown;
+    font-size: 28px;
+    text-align: right;
+    text-shadow: none;
+}
+.jupiter{
+    font-family: "Redressed";
+    color:aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(129, 38, 38);
+    background-image: url('../img/jupiter.jpg');
+    background-color: rgb(39, 15, 15);
+    background-repeat: no-repeat;
+    background-size: 350px 300px;
+    background-position: left;
+}
+.mercury h2{
+    color: chocolate;
+    font-size: 28px;
+    text-align-last: left;
+    text-decoration: underline;
+}
+.mercury{
+    font-family: "Murecho";
+    font-weight: 500;
+    color: rgb(37, 80, 172);
+    background-image: url('../img/mercury.jpg');
+    background-color: rgb(13, 5, 49);
+    background-repeat: repeat-y;
+    background-size: 200px 150px;
+    background-position: right;
+}
+.mars{
+    background-image: linear-gradient(25deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.mars h2{
+    color: rgb(58, 8, 68);
+    font-size: 32px;
+}
+.earth{
+    width: 100%;
+    background: url('../img/planets.jpg') repeat;
+}
+.sun{
+    background-image: url('../img/first.jpg'),url('../img/second.jpg');
+    background-color: rgba(32, 32, 146, 0.521);
+    background-repeat: no-repeat;
+    background-position: left,right;
+    background-size: auto, auto cover;
+}
